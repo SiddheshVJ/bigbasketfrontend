@@ -59,7 +59,7 @@ class CreateProduct extends React.Component {
     // Submit product
     submitProduct = (e) => {
         e.preventDefault()
-        let dataUrl = 'http://127.0.0.1:1896/products/addproduct/'
+        let dataUrl = 'http://127.0.0.1:1896/products/addproduct'
         axios.post(dataUrl, this.state.product)
             .then((response) => {
                 this.setState({

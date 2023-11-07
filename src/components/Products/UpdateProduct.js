@@ -13,6 +13,7 @@ class UpdateProduct extends React.Component {
     render() {
         return (
             <>
+            update here
             </>
         )
     }
